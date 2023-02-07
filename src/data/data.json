@@ -1,0 +1,34 @@
+{
+	"Hero": {
+		"greeting": "Hola, soy Shamir Leon",
+		"title": "Desarrollador FrontEnd"
+	},
+
+	"AboutMe": {
+		"first-paragraph": "Actualmente estoy centrado en la creacion de aplicaciones web, mi área de conocimiento se centra en el desarrollo <b>FrontEnd</b> utilizando <b>React y JavaScript</b>",
+		"second-paragraph": "Llevo alrededor de 1 año profundizando mis habilidades profesionales creando proyectos personales y ejecutando retos de plataformas como <b>FrontEnd Mentor</b>, en los cuales he podido reforzar diferentes temas y herramientas. "
+	},
+
+	"Projects": [
+		{
+			"title": "Todo app",
+			"technologies": ["React", "JavaScript", "Tailwind Css"],
+			"repository": "...",
+			"live": "..."
+		},
+		{
+			"title": "Bookmark landing",
+			"technologies": ["React", "JavaScript", "Tailwind Css"],
+			"repository": "https://github.com/ShamirLeon/bookmark-landing",
+			"live": "https://bookmark-landing-page-sl.netlify.app/"
+		},
+		{
+			"title": "Todo app",
+			"technologies": ["React", "JavaScript", "Tailwind Css"],
+			"repository": "https://github.com/ShamirLeon/EasyBank-LandingPage",
+			"live": "https://easybank-landingpage-sl.netlify.app/"
+		}
+	],
+
+	"Contact": "Me encantaría saber sobre tu proyecto y cómo podría ayudarte. Por favor, rellene el formulario y me pondré en contacto con usted lo antes posible."
+}
