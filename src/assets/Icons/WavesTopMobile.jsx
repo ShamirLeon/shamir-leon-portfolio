@@ -4,6 +4,7 @@ const WavesTopMobile = (props) => (
       height={100}
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 375 100"
       {...props}
     >
       <g clipPath="url(#a)">
