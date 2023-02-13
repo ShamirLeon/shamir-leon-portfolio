@@ -10,7 +10,7 @@
 		"thirdParagraph":", en los cuales he podido reforzar diferentes temas y herramientas. "
 	},
 
-	"Skills":{
+	"SkillsSection":{
 		"Abilities":[
 			{"id":1, "text":"JavaScript"},
 			{"id":2, "text":"React JS"},
