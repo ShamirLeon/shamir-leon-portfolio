@@ -7,42 +7,42 @@
 	"AboutMeSection": {
 		"firstParagraph": "Actualmente estoy centrado en la creacion de aplicaciones web, mi área de conocimiento se centra en el desarrollo FrontEnd utilizando",
 		"secondParagraph": "Llevo alrededor de 1 año profundizando mis habilidades profesionales creando proyectos personales y ejecutando retos de plataformas como ",
-		"thirdParagraph":", en los cuales he podido reforzar diferentes temas y herramientas. "
+		"thirdParagraph": ", en los cuales he podido reforzar diferentes temas y herramientas. "
 	},
 
-	"SkillsSection":{
-		"Abilities":[
-			{"id":1, "text":"JavaScript"},
-			{"id":2, "text":"React JS"},
-			{"id":3, "text":"Tailwind CSS"},
-			{"id":4, "text":"HTML"},
-			{"id":5, "text":"CSS"},
-			{"id":6, "text":"Git"},
-			{"id":7, "text":"GitHub"}
+	"SkillsSection": {
+		"Abilities": [
+			{ "id": 1, "text": "JavaScript" },
+			{ "id": 2, "text": "React JS" },
+			{ "id": 3, "text": "Tailwind CSS" },
+			{ "id": 4, "text": "HTML" },
+			{ "id": 5, "text": "CSS" },
+			{ "id": 6, "text": "Git" },
+			{ "id": 7, "text": "GitHub" }
 		],
-		"DevTools":[
-			{"id":1, "text":"Eslint"},
-			{"id":2, "text":"Prettier"}
+		"DevTools": [
+			{ "id": 1, "text": "Eslint" },
+			{ "id": 2, "text": "Prettier" }
 		]
-	}
+	},
 
 	"ProjectsSection": [
 		{
-			"id":"1",
+			"id": "1",
 			"title": "Todo app",
 			"technologies": ["React", "JavaScript", "Tailwind Css"],
 			"repository": "...",
 			"live": "..."
 		},
 		{
-			"id":"2",
+			"id": "2",
 			"title": "Bookmark landing",
 			"technologies": ["React", "JavaScript", "Tailwind Css"],
 			"repository": "https://github.com/ShamirLeon/bookmark-landing",
 			"live": "https://bookmark-landing-page-sl.netlify.app/"
 		},
 		{
-			"id":"3",
+			"id": "3",
 			"title": "Todo app",
 			"technologies": ["React", "JavaScript", "Tailwind Css"],
 			"repository": "https://github.com/ShamirLeon/EasyBank-LandingPage",
