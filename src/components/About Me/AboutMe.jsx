@@ -8,13 +8,13 @@ const AboutMe = params => {
 			<WavesTop />
 			<section id='AboutMe' className='bg-Dark-Blue pt-8 pb-20'>
 				<div className='flex flex-col gap-7 px-6 py-12 text-justify text-lg leading-8 text-White'>
-					<h2 className='py-4 text-center text-3xl font-bold tracking-widest text-Accent-Pink'>
+					<h2 className='py-4 text-center text-3xl font-bold tracking-widest text-Light-Green'>
 						Sobre mí
 					</h2>
 
 					<p>
 						{AboutMeSection.firstParagraph}{' '}
-						<b className='underline decoration-Accent-Pink decoration-wavy underline-offset-4'>
+						<b className='underline decoration-Light-Green decoration-wavy underline-offset-4'>
 							React y JavaScript
 						</b>
 					</p>
@@ -25,7 +25,7 @@ const AboutMe = params => {
 							target='_blank'
 							rel='noreferrer'
 						>
-							<b className='underline decoration-Accent-Pink decoration-wavy  underline-offset-4'>
+							<b className='underline decoration-Light-Green decoration-wavy  underline-offset-4'>
 								FrontEnd Mentor
 							</b>
 							{AboutMeSection.thirdParagraph}
