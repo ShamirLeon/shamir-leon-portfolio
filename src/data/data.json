@@ -10,6 +10,22 @@
 		"thirdParagraph":", en los cuales he podido reforzar diferentes temas y herramientas. "
 	},
 
+	"Skills":{
+		"Abilities":[
+			{"id":1, "text":"JavaScript"},
+			{"id":2, "text":"React JS"},
+			{"id":3, "text":"Tailwind CSS"},
+			{"id":4, "text":"HTML"},
+			{"id":5, "text":"CSS"},
+			{"id":6, "text":"Git"},
+			{"id":7, "text":"GitHub"}
+		],
+		"DevTools":[
+			{"id":1, "text":"Eslint"},
+			{"id":2, "text":"Prettier"}
+		]
+	}
+
 	"ProjectsSection": [
 		{
 			"id":"1",
