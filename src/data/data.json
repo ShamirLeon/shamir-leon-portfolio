@@ -4,25 +4,29 @@
 		"title": "Desarrollador FrontEnd"
 	},
 
-	"AboutMe": {
-		"first-paragraph": "Actualmente estoy centrado en la creacion de aplicaciones web, mi área de conocimiento se centra en el desarrollo <b>FrontEnd</b> utilizando <b>React y JavaScript</b>",
-		"second-paragraph": "Llevo alrededor de 1 año profundizando mis habilidades profesionales creando proyectos personales y ejecutando retos de plataformas como <b>FrontEnd Mentor</b>, en los cuales he podido reforzar diferentes temas y herramientas. "
+	"AboutMeSection": {
+		"firstParagraph": "Actualmente estoy centrado en la creacion de aplicaciones web, mi área de conocimiento se centra en el desarrollo FrontEnd utilizando",
+		"secondParagraph": "Llevo alrededor de 1 año profundizando mis habilidades profesionales creando proyectos personales y ejecutando retos de plataformas como ",
+		"thirdParagraph":", en los cuales he podido reforzar diferentes temas y herramientas. "
 	},
 
-	"Projects": [
+	"ProjectsSection": [
 		{
+			"id":"1",
 			"title": "Todo app",
 			"technologies": ["React", "JavaScript", "Tailwind Css"],
 			"repository": "...",
 			"live": "..."
 		},
 		{
+			"id":"2",
 			"title": "Bookmark landing",
 			"technologies": ["React", "JavaScript", "Tailwind Css"],
 			"repository": "https://github.com/ShamirLeon/bookmark-landing",
 			"live": "https://bookmark-landing-page-sl.netlify.app/"
 		},
 		{
+			"id":"3",
 			"title": "Todo app",
 			"technologies": ["React", "JavaScript", "Tailwind Css"],
 			"repository": "https://github.com/ShamirLeon/EasyBank-LandingPage",
@@ -30,5 +34,5 @@
 		}
 	],
 
-	"Contact": "Me encantaría saber sobre tu proyecto y cómo podría ayudarte. Por favor, rellene el formulario y me pondré en contacto con usted lo antes posible."
+	"ContactSection": "Me encantaría saber sobre tu proyecto y cómo podría ayudarte. Por favor, rellene el formulario y me pondré en contacto con usted lo antes posible."
 }
