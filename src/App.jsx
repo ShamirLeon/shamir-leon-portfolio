@@ -1,3 +1,4 @@
+import AboutMe from './components/About Me/AboutMe';
 import Hero from './components/Hero/Hero';
 import NavBar from './components/navBar/NavBar';
 
@@ -6,6 +7,7 @@ const App = () => {
 		<div className='relative'>
 			<NavBar />
 			<Hero />
+			<AboutMe />
 		</div>
 	);
 };
