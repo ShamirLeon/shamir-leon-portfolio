@@ -9,6 +9,7 @@ module.exports = {
 			'Light-Accent-Blue': '#BFDBF7',
 			'Light-Gray': '#E1E5F2',
 			'Light-Green': '#74E7DA',
+			'Accent-Pink': '#FF5277',
 			White: '#FFFFFF',
 			Black: '#000000',
 		},

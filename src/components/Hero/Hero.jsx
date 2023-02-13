@@ -4,7 +4,7 @@ import HeroImage from '../../assets/Images/Hero-Image-2.png';
 const Hero = params => {
 	return (
 		<section className='flex h-[100vh] flex-col items-center justify-center px-6'>
-			<h1 className='text-center text-xl font-bold text-Accent-Blue'>
+			<h1 className='text-center text-xl font-bold text-Accent-Pink'>
 				{HeroSection.greeting}
 			</h1>
 			<h2 className='mt-2 mb-7 text-center text-[40px] font-bold leading-10'>
