@@ -28,25 +28,28 @@
 
 	"ProjectsSection": [
 		{
-			"id": "1",
+			"id": "0",
 			"title": "Todo app",
 			"technologies": ["React", "JavaScript", "Tailwind Css"],
 			"repository": "...",
-			"live": "..."
+			"live": "...",
+			"alternative": "Todo App Frontend Mentor Challenge"
 		},
 		{
-			"id": "2",
+			"id": "1",
 			"title": "Bookmark landing",
 			"technologies": ["React", "JavaScript", "Tailwind Css"],
 			"repository": "https://github.com/ShamirLeon/bookmark-landing",
-			"live": "https://bookmark-landing-page-sl.netlify.app/"
+			"live": "https://bookmark-landing-page-sl.netlify.app/",
+			"alternative": "Bookmark landing rontend Mentor Challenge"
 		},
 		{
-			"id": "3",
-			"title": "Todo app",
+			"id": "2",
+			"title": "Easy Bank Landing",
 			"technologies": ["React", "JavaScript", "Tailwind Css"],
 			"repository": "https://github.com/ShamirLeon/EasyBank-LandingPage",
-			"live": "https://easybank-landingpage-sl.netlify.app/"
+			"live": "https://easybank-landingpage-sl.netlify.app/",
+			"alternative": "Easy bank landing Frontend Mentor Challenge"
 		}
 	],
 
