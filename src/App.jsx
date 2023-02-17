@@ -1,6 +1,7 @@
 import AboutMe from './components/About Me/AboutMe';
 import Hero from './components/Hero/Hero';
 import NavBar from './components/navBar/NavBar';
+import Projects from './components/ProjectsC/Projects';
 import Skills from './components/Skills/Skills';
 
 const App = () => {
@@ -10,6 +11,7 @@ const App = () => {
 			<Hero />
 			<AboutMe />
 			<Skills />
+			<Projects />
 		</div>
 	);
 };
