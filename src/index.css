@@ -8,3 +8,8 @@ h3 {
 	font-family: 'Sora';
 	color: #022b3a;
 }
+
+html{
+	scroll-behavior: smooth;
+	scroll-padding-top: 80px;
+}
