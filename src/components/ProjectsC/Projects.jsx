@@ -1,4 +1,4 @@
-import ProjectCard from './ProjectCard';
+import ProjectList from './ProjectsList';
 
 const Projects = params => {
 	return (
@@ -14,8 +14,7 @@ const Projects = params => {
 					</a>
 				</div>
 
-                <ProjectCard></ProjectCard>
-
+				<ProjectList />
 			</div>
 		</section>
 	);
