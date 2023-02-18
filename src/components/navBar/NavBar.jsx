@@ -3,7 +3,7 @@ import ShamirIcon from '../../assets/Images/Image-Nav.png';
 const NavBar = params => {
 	return (
 		<nav className='fixed z-50 flex w-full items-center justify-between gap-4 bg-White/80 py-[18px] px-6 font-Sora text-sm font-bold text-Dark-Blue backdrop-blur-sm'>
-			<a href='#AboutMe'>
+			<a href='#Hero'>
 				<img
 					src={ShamirIcon}
 					alt='Shamir León Portfolio'
