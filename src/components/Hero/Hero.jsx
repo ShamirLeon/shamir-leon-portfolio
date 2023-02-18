@@ -3,7 +3,10 @@ import HeroImage from '../../assets/Images/Hero-Image-2.png';
 
 const Hero = params => {
 	return (
-		<section className='flex h-[100vh] flex-col items-center justify-center px-6' id='Hero'>
+		<section
+			className='flex h-[100vh] flex-col items-center justify-center px-6'
+			id='Hero'
+		>
 			<h1 className='text-center text-xl font-bold text-Light-Green'>
 				{HeroSection.greeting}
 			</h1>

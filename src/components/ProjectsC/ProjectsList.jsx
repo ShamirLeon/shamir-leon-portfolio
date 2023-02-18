@@ -10,9 +10,12 @@ const images = [TodoImg, BookmarkImg, BankImg];
 const ProjectsList = () => {
 	console.log(ProjectsSection[0].technologies.length);
 	return (
-		<div className='flex flex-col gap-20 mx-auto'>
+		<div className='mx-auto flex flex-col gap-20'>
 			{ProjectsSection.map(card => (
-				<div key={card.id} className='rounded-xl py-[10px] px-3 shadow-xl max-w-[330px]'>
+				<div
+					key={card.id}
+					className='max-w-[330px] rounded-xl py-[10px] px-3 shadow-xl'
+				>
 					<picture>
 						<img
 							src={images[card.id]}
@@ -20,10 +23,10 @@ const ProjectsList = () => {
 							className='mb-4 rounded-xl'
 						/>
 					</picture>
-						<h2 className='text-center font-Roboto text-xl font-bold uppercase italic text-Black'>
-							{card.title}
-						</h2>
-					<div className='flex flex-col justify-center gap-5 py-5 overflow-hidden'>
+					<h2 className='text-center font-Roboto text-xl font-bold uppercase italic text-Black'>
+						{card.title}
+					</h2>
+					<div className='flex flex-col justify-center gap-5 overflow-hidden py-5'>
 						<div className='flex justify-center gap-3'>
 							{card.technologies.map((e, index) => (
 								<span
@@ -41,14 +44,16 @@ const ProjectsList = () => {
 							<a
 								href={card.repository}
 								className='after:content-[" "] relative font-Roboto text-base uppercase italic after:absolute after:bottom-0 after:right-0 after:left-0 after:mx-auto after:h-1 after:w-full after:bg-Light-Green'
-                                target='_blank' rel="noreferrer" 
+								target='_blank'
+								rel='noreferrer'
 							>
 								Repositorio
 							</a>
 							<a
 								href={card.live}
 								className='after:content-[" "] relative font-Roboto text-base uppercase italic after:absolute after:-bottom-0 after:right-0 after:left-0 after:mx-auto after:h-1 after:w-full after:bg-Light-Green'
-                                target='_blank' rel="noreferrer" 
+								target='_blank'
+								rel='noreferrer'
 							>
 								Live demo
 							</a>
