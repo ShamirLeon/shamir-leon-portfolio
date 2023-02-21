@@ -2,7 +2,7 @@ import ProjectList from './ProjectsList';
 
 const Projects = params => {
 	return (
-		<section className='px-6 py-12' id='Projects'>
+		<section className='px-6 pt-[630px] pb-8' id='Projects'>
 			<div className=' flex flex-col gap-8'>
 				<div className='flex items-center justify-between'>
 					<h2 className='text-3xl font-bold'>Proyectos</h2>

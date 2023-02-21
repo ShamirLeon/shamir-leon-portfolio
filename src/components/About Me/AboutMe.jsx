@@ -2,6 +2,8 @@ import { AboutMeSection } from '../../data/data.json';
 import WavesTop from '../../assets/Icons/WavesTopMobile';
 import WavesBot from '../../assets/Icons/WavesBotMobile';
 
+import Skills from '../Skills/Skills';
+
 const AboutMe = params => {
 	return (
 		<div className='relative z-10'>
@@ -35,7 +37,7 @@ const AboutMe = params => {
 						Descarga mi CV
 					</a>
 				</div>
-				{/* <Skills /> */}
+				<Skills />
 			</section>
 			<WavesBot />
 		</div>

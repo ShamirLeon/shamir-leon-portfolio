@@ -4,7 +4,7 @@ const Skills = params => {
 	return (
 		<section
 			id='Skills'
-			className='relative z-30 mx-auto flex w-[300px] -translate-y-32 flex-col items-center gap-5 rounded-xl bg-White py-12 shadow-2xl'
+			className='absolute right-0 left-0 z-30 mx-auto flex w-[300px] flex-col items-center gap-5 rounded-xl bg-White py-12 shadow-2xl'
 		>
 			<div className='absolute top-0 flex w-full gap-2 rounded-t-xl bg-[#E0E8F0] px-6 py-2'>
 				<div className='h-3 w-3 rounded-full bg-[#3BB662]'> </div>
