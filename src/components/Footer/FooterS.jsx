@@ -4,7 +4,7 @@ import FemIcon from '../../assets/Icons/FEMIcon';
 
 const FooterS = params => {
 	return (
-		<footer className='flex items-center justify-center gap-6 bg-Dark-Blue py-6'>
+		<footer className='flex items-center justify-center gap-6 bg-Dark-Blue py-6 lg:justify-start'>
 			<a href='https://github.com/ShamirLeon' target='_blank' rel='noreferrer'>
 				<GitHubIcon className='h-12 w-12 fill-White' />
 			</a>

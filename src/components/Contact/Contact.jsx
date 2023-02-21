@@ -1,5 +1,6 @@
 import { useRef } from 'react';
-import WavesTopMobile from '../../assets/Icons/WavesTopMobile';
+import WavesTopDesktop from '../../assets/Icons/WavesTopDesktop';
+import FooterS from '../Footer/FooterS';
 
 import { ContactSection } from '../../data/data.json';
 
@@ -30,17 +31,22 @@ const Contact = params => {
 	};
 	return (
 		<>
-			<WavesTopMobile className='-mb-1' />
-			<section id='Contact' className='bg-Dark-Blue px-6 py-12 text-center'>
-				<h2 className='mb-6 text-3xl font-bold uppercase tracking-widest text-Light-Accent-Blue'>
-					Contacto
-				</h2>
-				<p className='text-justify text-lg text-White'>{ContactSection}</p>
+			<WavesTopDesktop className='rotate-180 lg:-mb-1' />
+			<section
+				id='Contact'
+				className='bg-Dark-Blue px-6 py-12 text-center lg:grid lg:grid-cols-12 lg:grid-rows-[.5fr_.5fr] lg:gap-5 lg:px-32'
+			>
+				<div className='lg:col-start-1 lg:col-end-7'>
+					<h2 className='mb-6 text-3xl font-bold uppercase tracking-widest text-Light-Green lg:text-left lg:text-5xl'>
+						Contacto
+					</h2>
+					<p className='text-justify text-lg text-White'>{ContactSection}</p>
+				</div>
 
 				<form
 					ref={form}
 					onSubmit={sendEmail}
-					className='flex flex-col gap-12 py-6'
+					className='flex flex-col gap-12 py-6 lg:col-start-8 lg:col-end-13 lg:row-start-1 lg:row-end-3 lg:gap-4 lg:py-0'
 				>
 					<input
 						autoComplete='off'
@@ -82,6 +88,9 @@ const Contact = params => {
 						Enviar
 					</button>
 				</form>
+				<div className='lg:col-start-1 lg:col-end-7'>
+					<FooterS></FooterS>
+				</div>
 			</section>
 		</>
 	);
