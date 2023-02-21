@@ -1,16 +1,18 @@
 import { AboutMeSection } from '../../data/data.json';
-import WavesTop from '../../assets/Icons/WavesTopMobile';
-import WavesBot from '../../assets/Icons/WavesBotMobile';
+import WavesTopDesktop from '../../assets/Icons/WavesTopDesktop';
 
 import Skills from '../Skills/Skills';
 
 const AboutMe = params => {
 	return (
-		<div className='relative z-10 pb-[630px] '>
-			<WavesTop />
-			<section id='AboutMe' className='bg-Dark-Blue pt-8 pb-20'>
-				<div className='flex flex-col gap-7 px-6 py-12 text-justify text-lg leading-8 text-White'>
-					<h2 className='py-4 text-center text-3xl font-bold tracking-widest text-Light-Green'>
+		<div className='relative z-10 pb-[630px] lg:pb-6 '>
+			<WavesTopDesktop className='-mb-1 rotate-180' />
+			<section
+				id='AboutMe'
+				className='bg-Dark-Blue pt-8 pb-20 lg:flex lg:justify-center lg:gap-28  lg:py-2 lg:px-32'
+			>
+				<div className='flex flex-col gap-7 px-6 py-12 text-justify text-lg leading-8 text-White  lg:w-[620px] lg:gap-3 lg:py-0'>
+					<h2 className='py-4 text-center text-3xl font-bold tracking-widest text-Light-Green lg:py-2 lg:text-left'>
 						Sobre mí
 					</h2>
 
@@ -33,13 +35,13 @@ const AboutMe = params => {
 							{AboutMeSection.thirdParagraph}
 						</a>
 					</p>
-					<a href='#' className='text-center font-bold'>
+					<a href='#' className='text-center font-bold lg:text-left'>
 						Descarga mi CV
 					</a>
 				</div>
 				<Skills />
 			</section>
-			<WavesBot />
+			<WavesTopDesktop className='' />
 		</div>
 	);
 };
