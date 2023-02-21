@@ -12,13 +12,13 @@ const NavBar = params => {
 			</a>
 			<ul className='flex gap-4 lg:gap-12'>
 				<li>
-					<a href='#Skills'>Habilidades</a>
+					<a href='#Skills' className='after:content-[" "] relative after:absolute after:-bottom-3 after:right-0 after:left-0 after:mx-auto after:h-1 after:w-full after:bg-Light-Green after:opacity-0 hover:after:opacity-100 transition-all'>Habilidades</a>
 				</li>
 				<li>
-					<a href='#Projects'>Proyectos</a>
+					<a href='#Projects' className='after:content-[" "] relative after:absolute after:-bottom-3 after:right-0 after:left-0 after:mx-auto after:h-1 after:w-full after:bg-Light-Green after:opacity-0 hover:after:opacity-100 transition-all '>Proyectos</a>
 				</li>
 				<li>
-					<a href='#Contact'>Contacto</a>
+					<a href='#Contact' className='after:content-[" "] relative after:absolute after:-bottom-3 after:right-0 after:left-0 after:mx-auto after:h-1 after:w-full after:bg-Light-Green after:opacity-0 hover:after:opacity-100 transition-all'>Contacto</a>
 				</li>
 			</ul>
 		</nav>
