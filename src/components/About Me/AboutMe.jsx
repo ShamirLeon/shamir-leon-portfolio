@@ -6,7 +6,7 @@ import Skills from '../Skills/Skills';
 
 const AboutMe = params => {
 	return (
-		<div className='relative z-10'>
+		<div className='relative z-10 pb-[630px] '>
 			<WavesTop />
 			<section id='AboutMe' className='bg-Dark-Blue pt-8 pb-20'>
 				<div className='flex flex-col gap-7 px-6 py-12 text-justify text-lg leading-8 text-White'>
