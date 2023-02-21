@@ -11,7 +11,7 @@ const AboutMe = params => {
 				id='AboutMe'
 				className='bg-Dark-Blue pt-8 pb-20 lg:flex lg:items-center lg:justify-center  lg:gap-28 lg:py-2 lg:px-32'
 			>
-				<div className='flex flex-col gap-7 px-6 py-12 text-justify text-lg leading-8 text-White  lg:w-[620px] lg:gap-3 lg:py-0'>
+				<div className='flex flex-col gap-7 px-6 py-12 text-justify text-lg leading-8 text-White  lg:w-[620px] lg:gap-3 lg:p-0'>
 					<h2 className='py-4 text-center text-3xl font-bold tracking-widest text-Light-Green lg:py-2 lg:text-left'>
 						Sobre mí
 					</h2>
