@@ -1,5 +1,6 @@
 import { AboutMeSection } from '../../data/data.json';
 import WavesTopDesktop from '../../assets/Icons/WavesTopDesktop';
+import ClipboardIcon from '../../assets/Icons/clipboard.svg';
 
 import Skills from '../Skills/Skills';
 
@@ -35,13 +36,17 @@ const AboutMe = params => {
 							{AboutMeSection.thirdParagraph}
 						</a>
 					</p>
-					<a
-						href={import.meta.env.VITE_CV_URL}
-						className='text-center font-bold lg:text-left'
-						target='_blank' rel="noreferrer"
-					>
-						Descarga mi CV
-					</a>
+					<div className='rounded-md bg-White py-1 px-4 max-w-[160px] flex items-center gap-2 m-auto'>
+						<a
+							href={import.meta.env.VITE_CV_URL}
+							className='   text-center font-bold text-Dark-Blue lg:text-left'
+							target='_blank'
+							rel='noreferrer'
+						>
+							Curriculum
+						</a>
+						<img src={ClipboardIcon} className='w-5' />
+					</div>
 				</div>
 				<Skills />
 			</section>
