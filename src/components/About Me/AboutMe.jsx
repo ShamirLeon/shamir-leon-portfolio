@@ -35,7 +35,11 @@ const AboutMe = params => {
 							{AboutMeSection.thirdParagraph}
 						</a>
 					</p>
-					<a href='#' className='text-center font-bold lg:text-left'>
+					<a
+						href={import.meta.env.VITE_CV_URL}
+						className='text-center font-bold lg:text-left'
+						target='_blank' rel="noreferrer"
+					>
 						Descarga mi CV
 					</a>
 				</div>

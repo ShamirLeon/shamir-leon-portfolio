@@ -12,13 +12,28 @@ const NavBar = params => {
 			</a>
 			<ul className='flex gap-4 lg:gap-12'>
 				<li>
-					<a href='#Skills' className='after:content-[" "] relative after:absolute after:-bottom-3 after:right-0 after:left-0 after:mx-auto after:h-1 after:w-full after:bg-Light-Green after:opacity-0 hover:after:opacity-100 transition-all'>Habilidades</a>
+					<a
+						href='#Skills'
+						className='after:content-[" "] relative transition-all after:absolute after:-bottom-3 after:right-0 after:left-0 after:mx-auto after:h-1 after:w-full after:bg-Light-Green after:opacity-0 hover:after:opacity-100'
+					>
+						Habilidades
+					</a>
 				</li>
 				<li>
-					<a href='#Projects' className='after:content-[" "] relative after:absolute after:-bottom-3 after:right-0 after:left-0 after:mx-auto after:h-1 after:w-full after:bg-Light-Green after:opacity-0 hover:after:opacity-100 transition-all '>Proyectos</a>
+					<a
+						href='#Projects'
+						className='after:content-[" "] relative transition-all after:absolute after:-bottom-3 after:right-0 after:left-0 after:mx-auto after:h-1 after:w-full after:bg-Light-Green after:opacity-0 hover:after:opacity-100 '
+					>
+						Proyectos
+					</a>
 				</li>
 				<li>
-					<a href='#Contact' className='after:content-[" "] relative after:absolute after:-bottom-3 after:right-0 after:left-0 after:mx-auto after:h-1 after:w-full after:bg-Light-Green after:opacity-0 hover:after:opacity-100 transition-all'>Contacto</a>
+					<a
+						href='#Contact'
+						className='after:content-[" "] relative transition-all after:absolute after:-bottom-3 after:right-0 after:left-0 after:mx-auto after:h-1 after:w-full after:bg-Light-Green after:opacity-0 hover:after:opacity-100'
+					>
+						Contacto
+					</a>
 				</li>
 			</ul>
 		</nav>
