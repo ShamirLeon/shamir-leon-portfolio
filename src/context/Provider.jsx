@@ -19,7 +19,7 @@ const Provider = ({ children }) => {
 		const { data, error } = await supabase
 			.from('projects')
 			.select('*')
-			.order('id', { ascending: false });
+			.order('id');
 
 		if (error) console.log(error);
 		else setProjects(data);
