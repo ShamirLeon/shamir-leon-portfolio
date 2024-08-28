@@ -12,7 +12,7 @@ const AboutMe = params => {
 				id='AboutMe'
 				className='bg-Dark-Blue pt-8 pb-20 lg:flex lg:items-center lg:justify-center  lg:gap-28 lg:py-2 lg:px-32'
 			>
-				<div className='flex flex-col gap-7 px-6 py-12 text-left text-lg leading-8 text-White  lg:w-[620px] lg:gap-3 lg:p-0'>
+				<div className='flex flex-col gap-7 px-6 py-12 text-center md:text-left text-lg leading-8 text-White  lg:w-[620px] lg:gap-3 lg:p-0'>
 					<h2 className='py-4 mb-2 text-center text-3xl font-bold tracking-widest text-Light-Green lg:py-2 lg:text-left'>
 						Sobre mí
 					</h2>
@@ -43,7 +43,7 @@ const AboutMe = params => {
 					<div>
 						<a
 							href={import.meta.env.VITE_CV_URL}
-							className='  rounded-md bg-White py-1 px-4 mt-8 max-w-[160px] flex items-center gap-2 text-center font-bold text-Dark-Blue lg:text-left'
+							className='rounded-md bg-White py-1 px-4 mt-8 max-w-[160px] flex items-center gap-2 text-center font-bold text-Dark-Blue lg:text-left m-auto md:m-0'
 							target='_blank'
 							rel='noreferrer'
 						>
