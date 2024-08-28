@@ -18,7 +18,7 @@ const Hero = params => {
 			</div>
 			<picture>
 				<img src={HeroImage} alt='Shamir León' className='w-[420px] rounded-md' />
-				<div className='mt-12 h-3 w-[300px] rounded-[50%] bg-Black blur-[25px]'></div>
+				<div className='mt-12 h-3 w-[420px] rounded-[50%] bg-Black blur-[25px]'></div>
 			</picture>
 		</section>
 	);
