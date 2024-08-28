@@ -1,5 +1,5 @@
 import { HeroSection } from '../../data/data.json';
-import HeroImage from '../../assets/Images/Hero-Image-2.png';
+import HeroImage from '../../assets/Images/Shanm.jpeg';
 
 const Hero = params => {
 	return (
@@ -17,7 +17,7 @@ const Hero = params => {
 				<div className='hidden h-2 w-2/3 bg-Light-Green lg:block'></div>
 			</div>
 			<picture>
-				<img src={HeroImage} alt='Shamir León' className='w-[320px]' />
+				<img src={HeroImage} alt='Shamir León' className='w-[420px] rounded-md' />
 				<div className='mt-12 h-3 w-[300px] rounded-[50%] bg-Black blur-[25px]'></div>
 			</picture>
 		</section>

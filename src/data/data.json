@@ -1,24 +1,24 @@
 {
 	"HeroSection": {
 		"greeting": "Hola, soy Shamir León",
-		"title": "Desarrollador FrontEnd"
+		"title": "Desarrollador Web"
 	},
 
 	"AboutMeSection": {
-		"firstParagraph": "Actualmente estoy centrado en la creacion de aplicaciones web, mi área de conocimiento se centra en el desarrollo FrontEnd utilizando",
-		"secondParagraph": "Llevo alrededor de 1 año profundizando mis habilidades profesionales creando proyectos personales y ejecutando retos de plataformas como ",
-		"thirdParagraph": ", en los cuales he podido reforzar diferentes temas y herramientas. "
+		"firstParagraph": "Actualmente me especializo en el desarrollo de aplicaciones web full stack, con un enfoque sólido en la creación de interfaces de usuario utilizando ",
+		"secondParagraph": "Durante el último año y medio, he profundizado en mis habilidades profesionales mediante la creación de proyectos personales y la participación en desafíos de plataformas como ",
+		"thirdParagraph": ", Estos proyectos me han permitido reforzar y expandir mis conocimientos en diversas tecnologías y herramientas tanto del front-end como del back-end.. "
 	},
 
 	"SkillsSection": {
 		"Abilities": [
 			{ "id": 1, "text": "JavaScript" },
-			{ "id": 2, "text": "React JS" },
-			{ "id": 3, "text": "Tailwind CSS" },
-			{ "id": 4, "text": "HTML" },
-			{ "id": 5, "text": "CSS" },
-			{ "id": 6, "text": "Git" },
-			{ "id": 7, "text": "GitHub" }
+			{ "id": 2, "text": "React JS - Next" },
+			{ "id": 3, "text": "Vue JS - Nuxt" },
+			{ "id": 4, "text": "Tailwind CSS" },
+			{ "id": 5, "text": "HTML" },
+			{ "id": 6, "text": "CSS" },
+			{ "id": 7, "text": "Git" }
 		],
 		"DevTools": [
 			{ "id": 1, "text": "Eslint" },

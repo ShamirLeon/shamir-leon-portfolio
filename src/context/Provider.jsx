@@ -8,6 +8,7 @@ const supabase = createClient(
 	import.meta.env.VITE_SUPABASE_ANON_KEY
 );
 
+// eslint-disable-next-line react/prop-types
 const Provider = ({ children }) => {
 	const [projects, setProjects] = useState([]);
 
@@ -19,7 +20,7 @@ const Provider = ({ children }) => {
 		const { data, error } = await supabase
 			.from('projects')
 			.select('*')
-			.order('id');
+			.order('order');
 
 		if (error) console.log(error);
 		else setProjects(data);
