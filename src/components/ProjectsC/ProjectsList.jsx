@@ -34,22 +34,26 @@ const ProjectsList = () => {
 						<Dots className='relative z-[11] mx-auto w-full scale-125' />
 
 						<div className='relative bottom-0 flex justify-center gap-3 lg:justify-start'>
-							<a
-								href={project.repository}
-								className='after:content-[" "] relative font-Roboto text-base uppercase italic after:absolute after:bottom-0 after:right-0 after:left-0 after:mx-auto after:h-1 after:w-full after:bg-Light-Green lg:text-sm'
-								target='_blank'
-								rel='noreferrer'
-							>
-								Repositorio
-							</a>
-							<a
-								href={project.live_demo}
-								className='after:content-[" "] relative font-Roboto text-base uppercase italic after:absolute after:-bottom-0 after:right-0 after:left-0 after:mx-auto after:h-1 after:w-full after:bg-Light-Green lg:text-sm'
-								target='_blank'
-								rel='noreferrer'
-							>
-								Live demo
-							</a>
+							{project.repository && (
+								<a
+									href={project.repository}
+									className='after:content-[" "] relative font-Roboto text-base uppercase italic after:absolute after:bottom-0 after:right-0 after:left-0 after:mx-auto after:h-1 after:w-full after:bg-Light-Green lg:text-sm'
+									target='_blank'
+									rel='noreferrer'
+								>
+									Repositorio
+								</a>
+							)}
+							{project.live_demo && (
+								<a
+									href={project.live_demo}
+									className='after:content-[" "] relative font-Roboto text-base uppercase italic after:absolute after:-bottom-0 after:right-0 after:left-0 after:mx-auto after:h-1 after:w-full after:bg-Light-Green lg:text-sm'
+									target='_blank'
+									rel='noreferrer'
+								>
+									Live demo
+								</a>
+							)}
 						</div>
 					</div>
 				</div>

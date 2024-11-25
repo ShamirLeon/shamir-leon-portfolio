@@ -12,19 +12,21 @@ const AboutMe = params => {
 				id='AboutMe'
 				className='bg-Dark-Blue pt-8 pb-20 lg:flex lg:items-center lg:justify-center  lg:gap-28 lg:py-2 lg:px-32'
 			>
-				<div className='flex flex-col gap-7 px-6 py-12 text-center md:text-left text-lg leading-8 text-White  lg:w-[620px] lg:gap-3 lg:p-0'>
-					<h2 className='py-4 mb-2 text-center text-3xl font-bold tracking-widest text-Light-Green lg:py-2 lg:text-left'>
+				<div className='flex flex-col gap-7 px-6 py-12 text-center text-lg leading-8 text-White md:text-left  lg:w-[620px] lg:gap-3 lg:p-0'>
+					<h2 className='mb-2 py-4 text-center text-3xl font-bold tracking-widest text-Light-Green lg:py-2 lg:text-left'>
 						Sobre mí
 					</h2>
 
 					<p>
 						{AboutMeSection.firstParagraph}{' '}
 						<b className='underline decoration-Light-Green decoration-wavy underline-offset-4'>
-							React.js y Vue.js. 
-						</b>
-						{' '} en el front-end, así como en la implementación de soluciones robustas en el back-end con 
+							React.js y Vue.js.
+						</b>{' '}
+						en el front-end, así como en la implementación de soluciones
+						robustas en el back-end con
 						<b className='underline decoration-Light-Green decoration-wavy underline-offset-4'>
-						{' '}	Laravel. 
+							{' '}
+							Laravel.
 						</b>
 					</p>
 					<p>
@@ -43,7 +45,7 @@ const AboutMe = params => {
 					<div>
 						<a
 							href={import.meta.env.VITE_CV_URL}
-							className='rounded-md bg-White py-1 px-4 mt-8 max-w-[160px] flex items-center gap-2 text-center font-bold text-Dark-Blue lg:text-left m-auto md:m-0'
+							className='m-auto mt-8 flex max-w-[160px] items-center gap-2 rounded-md bg-White py-1 px-4 text-center font-bold text-Dark-Blue md:m-0 lg:text-left'
 							target='_blank'
 							rel='noreferrer'
 						>
