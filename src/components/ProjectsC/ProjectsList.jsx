@@ -6,7 +6,7 @@ const ProjectsList = () => {
 	const { projects } = useContext(DataContext);
 
 	return (
-		<div className='mx-auto flex flex-col gap-8 lg:mx-0 lg:flex-row lg:flex-wrap lg:justify-between'>
+		<div className='mx-auto flex flex-col gap-12 lg:mx-0 lg:flex-row lg:flex-wrap lg:justify-center xl:gap-x-16'>
 			{projects.map(project => (
 				<div
 					key={project.id}
